@@ -1,0 +1,79 @@
+/* Général */
+body {
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo */
+.logofromthefog {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.logofromthefog img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Titre */
+h1 {
+    text-align: center;
+    color: crimson;
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+/* Liste */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+li {
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+a {
+    color: firebrick;
+}
+
+.modslist {
+    color: darkslategray;
+}
+
+.modslist:hover {
+    color: dimgray;
+}
+
+a:hover {
+    color: crimson;
+}
+
+
+/* Responsivité */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    ul {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        font-size: 1rem;
+    }
+}
